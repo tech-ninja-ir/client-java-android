@@ -13,7 +13,7 @@ allProjects
 ```
 ```gradle
 dependencies {
-	implementation 'com.github.hamedgramzi:signalgoclient:3.0'
+	 implementation 'com.github.tech-ninja-ir:client-java-android:1.0'
 }
 ```
 
