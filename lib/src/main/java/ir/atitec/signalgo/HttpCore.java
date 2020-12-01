@@ -352,6 +352,7 @@ public class HttpCore extends Core {
             ClientHttpRequestFactory HttpComponentsClientHttpRequestFactory = new org.springframework.http.client.HttpComponentsClientHttpRequestFactory(getNewHttpClient());
             restTemplate.setRequestFactory(HttpComponentsClientHttpRequestFactory);
         }
+        addGlobalHeaderList(new GoHeader("Accept-Encoding", "identity"));
     }
 
     @Override
